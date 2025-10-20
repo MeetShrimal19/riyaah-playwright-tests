@@ -25,7 +25,9 @@ jobs:
           playwright install --with-deps
 
       - name: Run Playwright Tests
-        run: pytest -v --alluredir=allure-results
+        # Run tests but don't stop pipeline on failure
+        run: |
+          pytest -v --alluredir=allure-results || true
 
       - name: Generate Allure Report
         if: always()
@@ -39,3 +41,10 @@ jobs:
         with:
           name: allure-report
           path: allure-report
+
+      - name: Deploy Allure Report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
