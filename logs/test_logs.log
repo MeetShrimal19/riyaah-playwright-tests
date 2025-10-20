@@ -1,0 +1,142 @@
+2025-10-19 00:23:36,876 | INFO | ✅ English cookie button clicked.
+2025-10-19 00:23:42,513 | INFO | Empty cart message shown
+2025-10-19 00:26:07,680 | INFO | ✅ Arabic cookie button clicked.
+2025-10-19 00:26:15,474 | INFO | Empty cart message shown
+2025-10-19 00:37:56,867 | INFO | ✅ English cookie button clicked.
+2025-10-19 00:38:04,450 | INFO | Empty cart message shown
+2025-10-19 00:38:13,428 | INFO | ✅ Logger is working correctly.
+2025-10-19 00:38:13,429 | WARNING | ⚠️ This is a test warning.
+2025-10-19 00:38:13,429 | ERROR | ❌ Simulated error for testing.
+2025-10-19 00:59:15,484 | ERROR | ❌ Failed to handle cookie popup: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//div[contains(text(),'رفض')]")
+    - locator resolved to <div class="empty-btn bg-gradient-to-r from-[#332E2F] to-[#0A0909] text-center cursor-pointer py-[10px] px-[16px] rounded-[4px] text-white">رفض</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    54 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+
+2025-10-19 00:59:57,797 | ERROR | ❌ Test failed! Screenshot: C:\Users\Administrator\Desktop\Playwright learn\screenshots\test_failure_example_2025-10-19_00-59-57.png
+2025-10-19 02:18:30,820 | INFO | ✅ Arabic cookie button clicked.
+2025-10-19 02:18:36,911 | INFO | Empty cart message shown
+2025-10-19 02:19:09,513 | ERROR | ❌ Test failed! Screenshot: C:\Users\Administrator\Desktop\Playwright learn\screenshots\test_search_2025-10-19_02-19-09.png
+2025-10-19 02:23:36,557 | ERROR | ❌ Test failed! Screenshot: C:\Users\Administrator\Desktop\Playwright learn\screenshots\test_cart_wishlist_2025-10-19_02-23-35.png
+2025-10-19 02:24:28,138 | INFO | ✅ English cookie button clicked.
+2025-10-19 02:24:33,371 | INFO | Empty cart message shown
+2025-10-19 02:25:19,769 | INFO | ✅ English cookie button clicked.
+2025-10-19 02:25:57,767 | ERROR | ❌ Test failed! Screenshot: C:\Users\Administrator\Desktop\Playwright learn\screenshots\test_search_2025-10-19_02-25-57.png
+2025-10-19 02:30:27,944 | ERROR | ❌ Failed to handle cookie popup: Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("//div[contains(text(),'رفض')]")
+    - locator resolved to <div class="empty-btn bg-gradient-to-r from-[#332E2F] to-[#0A0909] text-center cursor-pointer py-[10px] px-[16px] rounded-[4px] text-white">رفض</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    15 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2025-10-19 02:30:40,670 | INFO | ✅ English cookie button clicked.
+2025-10-19 02:30:45,753 | INFO | Empty cart message shown
+2025-10-19 02:40:13,413 | INFO | ✅ English cookie button clicked.
+2025-10-19 02:40:17,304 | INFO | Checkout Clicked
+2025-10-19 02:40:20,684 | INFO | Login done
+2025-10-19 02:40:23,591 | INFO | Delete button clicked
+2025-10-19 02:40:25,463 | INFO | Empty cart message shown
+2025-10-19 02:57:18,726 | INFO | ✅ English cookie button clicked.
+2025-10-19 02:57:22,317 | INFO | Checkout Clicked
+2025-10-19 02:57:25,181 | INFO | Login done
+2025-10-19 02:57:27,451 | INFO | Delete button clicked
+2025-10-19 02:57:29,413 | INFO | Empty cart message shown
+2025-10-19 02:57:30,171 | ERROR | ❌ Test failed! Screenshot: C:\Users\Administrator\Desktop\Playwright learn\screenshots\test_cart_wishlist_2025-10-19_02-57-29.png
+2025-10-19 02:59:52,463 | INFO | ✅ English cookie button clicked.
+2025-10-19 02:59:55,980 | INFO | Checkout Clicked
+2025-10-19 02:59:58,793 | INFO | Login done
+2025-10-19 03:00:01,056 | INFO | Delete button clicked
+2025-10-19 03:00:02,993 | INFO | Empty cart message shown
+2025-10-19 03:00:03,820 | ERROR | ❌ Test failed! Screenshot: C:\Users\Administrator\Desktop\Playwright learn\screenshots\test_cart_wishlist_2025-10-19_03-00-03.png
+2025-10-19 03:03:53,208 | INFO | ✅ English cookie button clicked.
+2025-10-19 03:03:57,199 | INFO | Checkout Clicked
+2025-10-19 03:03:59,496 | INFO | Login done
+2025-10-19 03:04:01,744 | INFO | Delete button clicked
+2025-10-19 03:04:03,691 | INFO | Empty cart message shown
+2025-10-19 03:04:03,869 | INFO | Wishlist homepage clicked
+2025-10-19 03:04:04,907 | INFO | product name typed
+2025-10-19 03:18:11,108 | INFO | ✅ English cookie button clicked.
+2025-10-19 03:18:14,669 | INFO | Checkout Clicked
+2025-10-19 03:18:17,550 | INFO | Login done
+2025-10-19 03:18:19,891 | INFO | Delete button clicked
+2025-10-19 03:18:21,342 | INFO | Empty cart message shown
+2025-10-19 03:18:21,523 | INFO | Wishlist homepage clicked
+2025-10-19 03:18:22,263 | INFO | product name typed
+2025-10-19 03:18:22,788 | ERROR | ❌ Test failed! Screenshot: C:\Users\Administrator\Desktop\Playwright learn\screenshots\test_cart_wishlist_2025-10-19_03-18-22.png
+2025-10-19 03:19:03,023 | ERROR | ❌ Failed to handle cookie popup: Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("//div[normalize-space()='Yes, I accept']")
+    - locator resolved to <div class="empty-btn bg-gradient-to-r from-[#332E2F] to-[#0A0909] text-center cursor-pointer py-[10px] px-[16px] rounded-[4px] text-white">Yes, I accept</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    12 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <ct-web-popup-imageonly></ct-web-popup-imageonly> from <div id="wzrkImageOnlyDiv">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2025-10-19 03:19:15,388 | INFO | ✅ English cookie button clicked.
+2025-10-19 03:19:19,355 | INFO | Checkout Clicked
+2025-10-19 03:19:22,207 | INFO | Login done
+2025-10-19 03:19:24,476 | INFO | Delete button clicked
+2025-10-19 03:19:26,364 | INFO | Empty cart message shown
+2025-10-19 03:19:26,493 | INFO | Wishlist homepage clicked
+2025-10-19 03:19:27,630 | INFO | product name typed
+2025-10-19 03:19:28,021 | ERROR | ❌ Test failed! Screenshot: C:\Users\Administrator\Desktop\Playwright learn\screenshots\test_cart_wishlist_2025-10-19_03-19-27.png
