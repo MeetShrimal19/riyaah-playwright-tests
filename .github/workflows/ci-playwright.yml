@@ -31,8 +31,9 @@ jobs:
       - name: Generate Allure Report
         if: always()
         run: |
-          pip install allure-pytest
-          allure generate allure-results --clean -o allure-report || true
+          pip install allure-pytest allure-commandline
+          allure generate allure-results --clean -o allure-report || echo "⚠️ No allure-results found"
+      
 
       - name: Upload Allure results as artifact
         if: always()
